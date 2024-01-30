@@ -230,7 +230,7 @@
     //摄像头系统功能（模块：rcamera）
     //------------------------------------------------------------------------------------
     void UpdateCamera(Camera*Camera，int mode);              //更新所选模式的相机位置,mode参数需要填入一个raylib自带的预制摄像机模式，这会让使用摄像机变得更加方便
-    void UpdateCameraPro(Camera* camera，Vector3 movement，Vector2 rotation/*旋转*/，float zoom/*缩放大小*/)                                  //更新相机移动/旋转
+    void UpdateCameraPro(Camera* camera，Vector3 movement，Vector3 rotation/*旋转*/，float zoom/*缩放大小*/)                                  //更新相机移动/旋转
 
 
     
